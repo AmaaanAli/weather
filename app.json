@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.amaanaliy.weather",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "API_KEY": "fc231ec0c931abede7b393f77fb3096c",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f9e61345-c8cf-45a8-8089-8efe3fbee0f7"
+      }
     }
   }
 }
